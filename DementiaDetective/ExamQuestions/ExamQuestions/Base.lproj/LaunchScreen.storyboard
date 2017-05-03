@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="9a3-ts-2uF">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <scenes>
+        <!--launchscreen-->
+        <scene sceneID="m8f-fw-ZyA">
+            <objects>
+                <viewController title="launchscreen" id="9a3-ts-2uF" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="XuV-ff-Ubl"/>
+                        <viewControllerLayoutGuide type="bottom" id="ahw-Yw-VqV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="0jW-3h-CHQ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dd-full-logo copy (translucent)" translatesAutoresizingMaskIntoConstraints="NO" id="cBl-LV-Duc">
+                                <rect key="frame" x="0.0" y="234" width="374" height="199"/>
+                                <animations/>
+                            </imageView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" red="0.72549019609999998" green="0.54117647059999996" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Bmh-GQ-s4N" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="276.5" y="-295.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="dd-full-logo copy (translucent)" width="993" height="462"/>
+    </resources>
+</document>

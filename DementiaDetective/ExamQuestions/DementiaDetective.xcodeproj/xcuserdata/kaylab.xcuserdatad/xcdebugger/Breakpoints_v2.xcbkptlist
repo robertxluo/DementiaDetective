@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ExamQuestions/SecondViewController.swift"
+            timestampString = "469341224.772899"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "SecondViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ExamQuestions.SecondViewController.Answer1.getter : Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UITextField&gt;"
+                  moduleName = "ExamQuestions"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kaylab/Desktop/ExamQuestions/ExamQuestions/SecondViewController.swift"
+                  timestampString = "469341224.781081"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ExamQuestions.SecondViewController.Answer1.setter : Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UITextField&gt;"
+                  moduleName = "ExamQuestions"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kaylab/Desktop/ExamQuestions/ExamQuestions/SecondViewController.swift"
+                  timestampString = "469341224.781497"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ExamQuestions.SecondViewController.Answer1.materializeForSet : Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UITextField&gt;"
+                  moduleName = "ExamQuestions"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kaylab/Desktop/ExamQuestions/ExamQuestions/SecondViewController.swift"
+                  timestampString = "469341224.781798"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ExamQuestions.SecondViewController.init (ExamQuestions.SecondViewController.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.NSBundle&gt;) -&gt; ExamQuestions.SecondViewController"
+                  moduleName = "ExamQuestions"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kaylab/Desktop/ExamQuestions/ExamQuestions/SecondViewController.swift"
+                  timestampString = "469341224.782116"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "92">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ExamQuestions.SecondViewController.init (ExamQuestions.SecondViewController.Type)(coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;ExamQuestions.SecondViewController&gt;"
+                  moduleName = "ExamQuestions"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kaylab/Desktop/ExamQuestions/ExamQuestions/SecondViewController.swift"
+                  timestampString = "469341224.782404"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "51">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ExamQuestions/SecondViewController.swift"
+            timestampString = "469341229.758305"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ExamQuestions/ResultsViewController.swift"
+            timestampString = "469349810.557906"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "SendResults(_:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../Downloads/Dementia-Detective/Dementia-Detective/BackgroundQuestions.swift"
+            timestampString = "469350612.561338"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "BackgroundQuestions"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DementiaDetective.BackgroundQuestions.PhotoAlbum.getter : DementiaDetective.CustomPhotoAlbum"
+                  moduleName = "DementiaDetective"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kaylab/Downloads/Dementia-Detective/Dementia-Detective/BackgroundQuestions.swift"
+                  timestampString = "469352279.324777"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DementiaDetective.BackgroundQuestions.PhotoAlbum.setter : DementiaDetective.CustomPhotoAlbum"
+                  moduleName = "DementiaDetective"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kaylab/Downloads/Dementia-Detective/Dementia-Detective/BackgroundQuestions.swift"
+                  timestampString = "469352279.326703"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DementiaDetective.BackgroundQuestions.PhotoAlbum.materializeForSet : DementiaDetective.CustomPhotoAlbum"
+                  moduleName = "DementiaDetective"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kaylab/Downloads/Dementia-Detective/Dementia-Detective/BackgroundQuestions.swift"
+                  timestampString = "469352279.327643"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DementiaDetective.BackgroundQuestions.init (DementiaDetective.BackgroundQuestions.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.NSBundle&gt;) -&gt; DementiaDetective.BackgroundQuestions"
+                  moduleName = "DementiaDetective"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kaylab/Downloads/Dementia-Detective/Dementia-Detective/BackgroundQuestions.swift"
+                  timestampString = "469352279.328278"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "192">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DementiaDetective.BackgroundQuestions.init (DementiaDetective.BackgroundQuestions.Type)(coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;DementiaDetective.BackgroundQuestions&gt;"
+                  moduleName = "DementiaDetective"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kaylab/Downloads/Dementia-Detective/Dementia-Detective/BackgroundQuestions.swift"
+                  timestampString = "469352279.329384"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "132">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ExamQuestions/ResultsViewController.swift"
+            timestampString = "469351964.701811"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "SendResults(_:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ExamQuestions/ResultsViewController.swift"
+            timestampString = "469352279.256352"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "configuredMailComposeViewController()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ExamQuestions/ResultsViewController.swift"
+            timestampString = "469352071.04825"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "SendResults(_:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ExamQuestions/ResultsViewController.swift"
+            timestampString = "469352230.809624"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "mailComposeController(_:didFinishWithResult:error:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

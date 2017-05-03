@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <scenes>
+        <!--Why Test View Controller-->
+        <scene sceneID="SNF-A0-ZbN">
+            <objects>
+                <viewController id="9rH-m4-eCP" customClass="WhyTestViewController" customModule="MainTable" customModuleProvider="target" sceneMemberID="viewController">
+                    <textView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" id="LRc-IL-C7A">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <string key="text">Why Test?
+
+Alzheimer’s is a frightening disease. For that reason, many people are reluctant to screen for cognitive impairment. It may be difficult to acknowledge the presence of memory problems or any changes in cognitive function. However, there are many benefits for considering early screening of Alzheimer’s dementia:
+
+Avoid diagnosis uncertainty: Although a diagnosis of dementia can be devastating, knowing what the problem is and what can be done to treat it can leave you with more certainty than not knowing the reason for changes in mental function. 
+Early detection can improve treatment success: One huge benefit is that some causes of dementia are in fact treatable and fully or partially reversible, depending on the cause of cognitive impairment. Conditions that fall into this category include but are not limited to: vitamin deficiencies, side effects of medications and certain brain tumors. 
+Support from loved ones: Apart from treatment, detecting the disease early has benefits not only to the one diagnosed, but to their loved ones as well. Early signs of cognitive impairments allows the patient’s loved ones room to be more vigilant. 
+Preparation for the future: Another advantage of early diagnosis is the financial side of things. It gives the patient and their loved ones time to make decisions about future care, financial and legal matters.
+Enhancing detection: Getting the right diagnosis early can help researchers and medical professionals further understand the potential causes of dementia and its risk factors. Better recognition of the disease is imperative for providing help and support for others who are affected.
+
+Reference:
+Benefits of early dementia diagnosis. (17 September 2015). Retrieved November 2015 from http://www.nhs.uk/ 
+
+
+(2) About SAGE Screening
+
+SAGE stands for Self-Administered Gerocognitive Exam. It is a screening test designed to detect early signs of cognitive, memory or thinking impairments. SAGE evaluates your brain’s thinking abilities and lets your health care provider know how well your brain works.
+
+Dementia Detectives provides you the ability to perform the SAGE test in the convenience of your own home, without the pressures of a busy medical setting. Once you click “Take The Test” on the Dementia Detective home menu, you will have the ability to take the screening test and send the results to your healthcare provider.
+
+While SAGE is not diagnostic of Alzheimer’s disease, research studies demonstrate that the test is accurate in its detection of mild cognitive impairment or dementia. The test results will allow your healthcare provider to determine whether or not treatment or further evaluation is necessary. Consult your primary care provider regarding test interpretation and further information about SAGE. Otherwise, please refer to our “Fight Dementia” and “Resources” page for a comprehensive overview of strategies to further protect against Alzheimer’s.
+
+Reference:
+SAGE: A Test to Detect Signs of Alzheimer’s and Dementia. (2010). Retrieved November 2015 from http://wexnermedical.osu.edu/ 
+
+
+
+
+
+
+</string>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    </textView>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Dg0-Js-N6C" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="220" y="-381"/>
+        </scene>
+        <!--Main Table View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="MainTableViewController" customModule="MainTable" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yUV-DA-aV9">
+                                <rect key="frame" x="144" y="44" width="313" height="48"/>
+                                <animations/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="Ee3-jT-1fG"/>
+                                    <constraint firstAttribute="width" constant="313" id="bYS-Ly-sNO"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="Alzheimer's Description">
+                                    <color key="titleColor" red="0.0028846153849999999" green="0.0028846153849999999" blue="0.0028846153849999999" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="6se-lw-88h" kind="show" id="hKs-RN-luu"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bPH-zm-XON">
+                                <rect key="frame" x="144" y="121" width="313" height="48"/>
+                                <animations/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="Qxu-y5-Wvo"/>
+                                    <constraint firstAttribute="width" constant="313" id="VJF-Vr-YTd"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <state key="normal" title="About Dementia: Myth or Truth?">
+                                    <color key="titleColor" red="0.0028846153849999999" green="0.0028846153849999999" blue="0.0028846153849999999" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="EKp-kK-WyH" kind="show" id="Lk5-tZ-xph"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K9H-Uc-dDg">
+                                <rect key="frame" x="144" y="201" width="313" height="48"/>
+                                <animations/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="21P-hC-kQ8"/>
+                                    <constraint firstAttribute="width" constant="313" id="AN7-wx-ra0"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="Fighting Dementia">
+                                    <color key="titleColor" red="0.0028846153849999999" green="0.0028846153849999999" blue="0.0028846153849999999" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="9HN-IG-mz6" kind="show" id="PVq-B0-LoQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oso-vL-TPW">
+                                <rect key="frame" x="144" y="278" width="313" height="48"/>
+                                <animations/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="313" id="5q6-la-Mi9"/>
+                                    <constraint firstAttribute="height" constant="48" id="duf-UY-9QO"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="Know the Signs">
+                                    <color key="titleColor" red="0.0028846153849999999" green="0.0028846153849999999" blue="0.0028846153849999999" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BJU-YG-Pyu" kind="show" id="WSW-aI-RYZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8e3-GK-sNb">
+                                <rect key="frame" x="144" y="357" width="313" height="48"/>
+                                <animations/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="akn-Z9-FV6"/>
+                                    <constraint firstAttribute="width" constant="313" id="tx7-ju-gab"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="Why Test?">
+                                    <color key="titleColor" red="0.0028846153849999999" green="0.0028846153849999999" blue="0.0028846153849999999" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="9rH-m4-eCP" kind="show" id="ERf-Jg-GBU"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="bPH-zm-XON" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-155" id="08d-d5-qSr"/>
+                            <constraint firstItem="bPH-zm-XON" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-155" id="0rN-UD-WAi"/>
+                            <constraint firstItem="8e3-GK-sNb" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="0uE-1K-4aU"/>
+                            <constraint firstItem="bPH-zm-XON" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Gre-GD-1Hy"/>
+                            <constraint firstItem="Oso-vL-TPW" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="2" id="WuY-JV-epR"/>
+                            <constraint firstItem="8e3-GK-sNb" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="81" id="avg-tQ-fK6"/>
+                            <constraint firstItem="Oso-vL-TPW" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fKj-Dn-nIP"/>
+                            <constraint firstItem="bPH-zm-XON" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="i1j-bE-a8j"/>
+                            <constraint firstItem="yUV-DA-aV9" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-232" id="kOD-1K-Let"/>
+                            <constraint firstItem="K9H-Uc-dDg" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-75" id="uSJ-DX-7QC"/>
+                            <constraint firstItem="K9H-Uc-dDg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="wHU-ER-Bmr"/>
+                            <constraint firstItem="yUV-DA-aV9" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="xoU-gZ-Aov"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="220" y="272"/>
+        </scene>
+        <!--AboutTM View Controller-->
+        <scene sceneID="KxN-K1-tTc">
+            <objects>
+                <viewController id="EKp-kK-WyH" customClass="AboutTMViewController" customModule="MainTable" customModuleProvider="target" sceneMemberID="viewController">
+                    <textView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" id="Qyi-er-Z0c">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <string key="text">About Dementia: Myth or Truth?
+Alzheimer’s is not a common illness in America. False.
+In 2013, as many as 5 million Americans were living with Alzheimer’s disease. The number of people with Alzheimer’s disease doubles every 5 years beyond age 65. By 2050, this number is projected to rise to 14 million, a nearly three-fold increase.
+Alzheimer’s is the most common form of dementia. True.
+Alzheimer's disease accounts for 60-80% of dementia cases. 
+Alzheimer’s is a disease of the elderly. False.
+As much as 5% of people with the disease have early-onset Alzheimer's (younger-onset), which often appears when someone is in their 40s or 50s.
+Alzheimer’s is considered the most expensive disease in America. True.
+In 2015, Alzheimer’s and other dementias are projected to cost the country an estimated $226 billion. Unless something is done, the cost of Alzheimer’s will continue to rise, costing over $1.1 trillion by 2050.
+Alzheimer’s is not a leading cause of death in the United States. False.
+Alzheimer’s is the 6th leading cause of death in the United States, and is currently the only leading cause of death that is not preventable.
+
+Reference:
+Alzheimer's Disease. (2015, March 5). Retrieved November 2015, from http://www.cdc.gov/
+
+</string>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    </textView>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dUl-3S-B1Q" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="848" y="990"/>
+        </scene>
+        <!--Fighting View Controller-->
+        <scene sceneID="uJa-ot-CEb">
+            <objects>
+                <viewController id="9HN-IG-mz6" customClass="FightingViewController" customModule="MainTable" customModuleProvider="target" sceneMemberID="viewController">
+                    <textView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" id="crk-o3-cra">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <string key="text">Alzheimer’s Disease Prevention
+
+Exercise regularly
+Aim for at least 30 minutes of moderately intense exercise each day, or 150 minutes each week
+Utilize a mix of cardio exercises and strength training
+Any activity that brings up your heart rate is a good start
+Weight and resistance training: for those 65 years and over, adding 2-3 sessions to your weekly routine may cut your risk for Alzheimer’s in half
+Have a well-balanced and healthy diet
+Eat a Mediterranean diet: Mediterranean diets are rich in vegetables, beans, whole grains, fish, and olive oil -- these ingredients are associated with a reduced risk of cognitive impairment and Alzheimer’s disease
+Avoid trans fats and saturated fats: These fats can lead to inflammation and produce free radicals, which are damaging to the brain. Focus on consuming healthy fats to reduce Alzheimer’s risk
+Perform activities that promote mental stimulation
+Learn new things, such as studying a foreign language or learning how to play a musical instrument
+Practice memorization: try to memorize something that involves more effort, such as the 50 U.S. state capitals, or create rhymes and mnemonics to enhance memory
+Try new activities: Take a new route, eat with your non-dominant hand, rearrange your computer file system. Vary habits regularly
+Get enough sleep according to age group
+Establish a regular sleep schedule, going to bed and waking up at the same time
+Do your best to reach the following sleep goals:
+Younger adults (18-25): Sleep range is 7-9 hours
+Adults (26-64): Sleep range is 7-9 hours
+Older adults (65+): Sleep range is 7-8 hours
+Create a relaxing bedtime ritual: Habits for bedtime will send a signal to your brain that it’s time for deep restorative sleep
+Manage stress levels
+Chronic stress can affect the brain and memory function, increasing your risk of Alzheimer’s disease
+Perform techniques to manage stress levels:
+Practice deep restorative breathing to reduce stress and increase oxygen flow to your brain
+Keep stress under control with daily relaxation activities, such as yoga, walking in the park, or a soothing bath
+Make fun a priority: Make time for leisure activities -- constantly working can negatively affect your stress levels and your brain
+Remember to laugh: being able to keep a sense of humor and laugh it off can help your body fight stress
+Maintain an active social life
+Social isolation can cause our memory to deteriorate. Research shows that remaining socially engaged can protect against Alzheimer’s disease and dementia later in life
+Keeping a strong network of friends and having in-person, face-to-face interaction is helpful for maintaining memory and cognition
+
+The more you strengthen each of these strategies, the healthier your brain activity will be. The healthier your brain, the longer it will last.
+
+References:
+Smith, M., Robinson, L. &amp; Segal, J.. (2015). Alzheimer’s and Dementia Prevention. Retrieved November 2015, from http://www.helpguide.org/
+How Much Sleep Do We Really Need?. (2015). Retrieved November 2015 from https://sleepfoundation.org/
+</string>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    </textView>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QlV-bZ-RVR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="220" y="990"/>
+        </scene>
+        <!--Know Signs View Controller-->
+        <scene sceneID="aBn-fc-RPS">
+            <objects>
+                <viewController id="BJU-YG-Pyu" customClass="KnowSignsViewController" customModule="MainTable" customModuleProvider="target" sceneMemberID="viewController">
+                    <textView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" id="8EY-8H-YO4">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <string key="text">Know the Signs of Alzheimer’s Dementia
+
+The following items are signs that are commonly associated with Alzheimer’s dementia. Have you noticed any of the signs throughout your daily life? Have they been interrupting your daily routine? If you notice any of these warning signs, be sure to consult your primary care provider and ask if now is the appropriate time to take a cognitive screening test.
+
+Memory loss that causes disruptions in daily life
+Have you been forgetting important dates?
+Do you ask the same information over and over?
+Do you rely on notes or other devices to help aid memory?
+Do you need to ask your family members for help with tasks that you used to handle independently?
+Typical sign: Sometimes forgetting names or appointments, and then remembering them later.
+Facing challenges in planning or solving problems
+Are you experiencing changes or difficulty in developing a plan and following through with it?
+Are you having trouble with a familiar recipe?
+Is it difficult to keep track of monthly bills?
+Are you having trouble concentrating and accomplishing tasks?
+Does it take much longer now to complete tasks than before?
+Typical sign: Making a few errors when balancing a checkbook.
+Difficulty completing familiar tasks
+Are you having difficulty familiar daily tasks at home, work, or leisurely?
+Do you have trouble driving to a familiar place?
+Have you had trouble budgeting at work?
+Have you forgotten the rules of your favorite game?
+Typical sign: Occasionally needing help to use the settings on a microwave or to record a TV show
+Confusion with time or place
+Do you lose track of dates, seasons, and passage of time?
+Do you have trouble understanding something if it does not happen immediately?
+Do you forget where you are or how you got there?
+Typical sign: Getting confused about the day of the week but remembering it later
+Experiencing issues with your vision
+Vision problems may be a sign of Alzheimer’s for some people
+Have you had difficulty reading?
+Have you had difficulty judging distance and determining color or contrast?
+Are you unable to recognize yourself in the mirror at times?
+Typical sign: Vision changes related to cataracts
+New problems with communicating
+Do you have trouble following or joining a conversation?
+Have you stopped talking in the middle of a conversation and have no idea how to continue?
+Have you repeated yourself in conversation?
+Do you struggle with vocabulary and recalling words?
+Typical sign: Sometimes having trouble finding the right word
+Misplacing things and losing the ability to retract your steps to find them
+Do you put things in unusual places?
+Do you lose things and are unable to find them again?
+Do you accuse others of stealing items?
+Typical sign: Misplacing items from time to time, such as a pair of glasses or remote control
+Decreased or poor judgment:
+Have you experienced any changes in judgment or decision making?
+Do you find yourself using poor judgment when it comes to dealing with money? For example, giving large amounts of money to telemarketers?
+Do you spend less time grooming yourself or keeping yourself clean?
+Typical sign: Making a bad decision once in a while
+Isolating and removing yourself from hobbies and social activities
+Have you been starting to remove yourself from hobbies or social activities?
+Are you having trouble keeping up with your favorite sports team or remembering how to complete a favorite hobby?
+Have you been avoiding social events due to any changes you’ve experienced?
+Typical sign: Sometimes feeling tired of work, family, and social obligations
+Mood and personality changes:
+Have you been feeling confused, suspicious, depressed, fearful, or anxious?
+Are you easily upset at home, work, with friends or in places where you are out of your comfort zone?
+Typical sign: Developing very specific ways of doing things and becoming irritable when routine is disrupted
+
+Reference:
+Alzheimer’s Association. (2009). Retrieved November 2015, from http://www.alz.org/
+
+
+</string>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    </textView>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xGC-j8-v2e" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="848" y="-381"/>
+        </scene>
+        <!--Alz Description View Controller-->
+        <scene sceneID="Wf4-cc-CCO">
+            <objects>
+                <viewController id="6se-lw-88h" customClass="AlzDescriptionViewController" customModule="MainTable" customModuleProvider="target" sceneMemberID="viewController">
+                    <textView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="NNf-Me-MTB">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <string key="text">What is Alzheimer’s?
+
+Alzheimer’s disease is a chronic, irreversible brain disorder that progressively impairs memory and mental skills. Eventually, Alzheimer’s can affect a person’s ability to perform simple tasks.
+
+Alzheimer’s is the most common type of dementia. Dementia is a general term for memory loss and impairment of other vital mental functions. Alzheimer's has no current cure, but treatments are available that can temporarily slow down the effects of dementia, especially with early diagnosis. Once diagnosed, those with Alzheimer’s tend to live an average of eight years, however, it can range anywhere from four to twenty years. The earlier symptoms are detected the better the chance at fighting the disease and reaching regression. 
+
+Reference: 
+Allzheimer’s Association. (2015). What is Alzheimer’s? Retrieved November 2015, from http://www.alz.org/ </string>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    </textView>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5ae-ly-t2n" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="848" y="272"/>
+        </scene>
+    </scenes>
+</document>
